@@ -6,13 +6,17 @@ Aluno::Aluno (){
   this->nome = "Indigente";
 
 }
+/*
 Aluno::Aluno (string nome, string cpf, int matricula, string email, string  telefone){
   this->nome = nome;
   this->cpf = cpf;
   this->matricula = matricula;
   this->email = email;
   this->telefone = telefone;
-}
+}*/
+
+Aluno::Aluno (string nome, string cpf, int matricula, string email, string  telefone):nome(nome),cpf(cpf),matricula(matricula),email(email),telefone(telefone){}
+
 Aluno::~Aluno (){
 
 }
