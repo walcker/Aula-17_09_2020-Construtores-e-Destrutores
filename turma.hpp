@@ -20,6 +20,7 @@ public:
 
   Turma();
   Turma(string nome, string id);
+  ~Turma();
   string getNome();
   void setNome(string nome);
   string getId();
