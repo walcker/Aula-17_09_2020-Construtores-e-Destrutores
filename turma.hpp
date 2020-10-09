@@ -17,6 +17,9 @@ class Turma{
   int capacidade = 0;
 
 public:
+
+  Turma();
+  Turma(string nome, string id);
   string getNome();
   void setNome(string nome);
   string getId();

@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 
 #include "turma.hpp"
 
@@ -48,4 +48,4 @@ int main(int argc, char const *argv[]){
   imd0030.listarAlunos();
 
   return 0;
-}*/
+}
